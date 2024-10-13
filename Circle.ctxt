@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=canvas
+comment0.target=Circle(Canvas)
+comment0.text=\nCreate\ a\ new\ circle\ at\ default\ position\ with\ default\ color.\n\n
+comment1.target=void\ makeVisible()
+comment1.text=\nMake\ this\ circle\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\n\n
+comment10.target=int\ getYPosition()
+comment10.text=Returns\ the\ y\ coordinate\ of\ the\ center\ of\ the\ circle.\n\n
+comment11.target=int\ getDiameter()
+comment2.target=void\ makeInvisible()
+comment2.text=\nMake\ this\ circle\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\n\n
+comment3.params=xDistance\ yDistance
+comment3.target=void\ moveDirection(int,\ int)
+comment3.text=\nMove\ in\ the\ direction\ defined\ by\ xDistance\ and\ yDistance\n\n@param\ distanceX\nhow\ far\ to\ move\ in\ the\ horizontal\ direction\n@param\ distanceY\nhow\ far\ to\ move\ in\ the\ verticalal\ direction\n\n
+comment4.params=newXPosition\ newYPosition
+comment4.target=void\ moveTo(int,\ int)
+comment4.text=\nMove\ to\ the\ location\ defined\ by\ xDistance\ and\ yDistance\n\n@param\ distanceX\nhow\ far\ to\ move\ in\ the\ horizontal\ direction\n@param\ distanceY\nhow\ far\ to\ move\ in\ the\ verticalal\ direction\n\n
+comment5.params=newDiameter
+comment5.target=void\ changeSize(int)
+comment5.text=\nChange\ the\ size\ to\ the\ new\ size\ (in\ pixels).\ Size\ must\ be\ >\=\ 0.\n\n
+comment6.params=newColor
+comment6.target=void\ changeColor(String)
+comment6.text=\nChange\ the\ color.\ Valid\ colors\ are\ "red",\ "yellow",\ "blue",\ "green",\n"magenta"\ and\ "black".\n\n
+comment7.target=void\ draw()
+comment7.text=Draw\ the\ circle\ with\ current\ specifications\ on\ screen.\n\n
+comment8.target=void\ erase()
+comment8.text=Erase\ the\ circle\ on\ screen.\n\n
+comment9.target=int\ getXPosition()
+comment9.text=Returns\ the\ x\ coordinate\ of\ the\ center\ of\ the\ circle.\n\n
+numComments=12
